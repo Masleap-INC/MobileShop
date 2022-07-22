@@ -79,7 +79,7 @@ const Cart = () => {
                       +
                     </button>
                   </div>
-                  <p className="cartSubtotal">{`$${
+                  <p className="cartSubtotal">{`$ ${
                     item.price * item.quantity
                   }`}</p>
                 </div>
